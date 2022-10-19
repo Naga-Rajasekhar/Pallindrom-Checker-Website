@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pallindrome Checker</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="p-10">
+      <div>
+        <div>
+          <h1
+            class="pallindrome-heading text-4xl mb-2 text-cyan-700 text-center font-bold"
+          >
+            Pallindrome Checker
+          </h1>
+        </div>
+        <div>
+          <p class="pallindrome-header text-2xl mb-4 text-center">
+            Enter the word or sentence to check wether it is a pallindrome or
+            not
+          </p>
+        </div>
+
+        <div class="input-field flex center justify-center items-center">
+          <input
+            type="text"
+            id="input_value"
+            class="bg-gray-50 border border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-96 p-2.5 dark:bg-gray-300 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:font-bold dark:focus:border-blue-500"
+            placeholder="Please enter the text or value"
+            required
+          />
+        </div>
+
+        <div class="checkButton flex center justify-center items-center mt-5">
+          <button
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+          >
+            Check Pallindrome
+          </button>
+        </div>
+
+        <div class="output text-center mt-4 hidden">...............</div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
